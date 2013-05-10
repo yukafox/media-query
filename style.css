@@ -1,0 +1,26 @@
+/*Main elements style*/
+h1          { color: #b91820; }
+body        { background-color: #f2eeeb; font-family: "Times New Roman",Times,Cambria,serif; font-size: 13px; line-height: 22px;
+                margin: 0 auto; width: 1000px; }
+header      { text-align: center; }
+footer      { text-align: center; color: #989898; }
+
+.span_3     { background-color: #f7f3f2; border-radius: 5px; margin: 5px; box-shadow: 0 0 5px 0 #aeaeae; }
+.span_3 p   { text-align: center; }
+.ext_ref    { text-align: center; }
+.ext_ref h3 { color: #b91820; line-height: 50px; text-align: center; }
+.shortText  { width: 99%; padding: 5px; }
+
+@media ( max-width : 899px ) {
+    .span_3 { width: 48%; }
+    .container { width: 468px; margin: 0 auto; }
+    .col { margin-left: 0; }
+    body { width: 100%; }
+}
+
+@media ( max-width : 509px ) {
+    .span_3 { width: 99%; }
+    .container { width: 306px; margin: auto; }
+    .col { margin-left: 0; }
+    body { width: 100%; }
+}
