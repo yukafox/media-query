@@ -43,11 +43,6 @@
     }
 }
 
-
-/* RESET MARGINS */
-.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
-
-
 /* COLUMN WIDTH ON DISPLAYS +768px */
 @media ( min-width : 768px ) {
     .span_1 { width: 6.5%; }
