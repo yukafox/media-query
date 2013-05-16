@@ -1,47 +1,66 @@
 /*Main elements style*/
-h1              { color: #b91820; }
-body            { background-color: #f2eeeb; font-family: "Times New Roman",Times,Cambria,serif; font-size: 13px; line-height: 22px;
-                    margin: 0 auto; width: 1000px; }
-header          { background: url("http://colly.com/images/site/div-akacolly.png") repeat-x scroll center bottom transparent;
-                    margin: 0 0 18px; padding: 10px 0 18px; }
-header a        {  background: url("http://colly.com/images/site/logo.png") no-repeat scroll 0 0 transparent; display: block;
-                    height: 86px; margin: -22px auto 0; text-indent: -9999px; width: 460px; }
-header a:hover  { background-position: 0 -90px; }
-footer          { text-align: center; color: #989898; }
-section         {  margin: 0 auto; }
+h1                  { color: #b91820; }
+body                { background-color: #f2eeeb; font-family: "Times New Roman",Times,Cambria,serif; font-size: 13px; line-height: 22px;
+                        margin: 0 auto; width: 1000px; }
+header              { background: url("http://colly.com/images/site/div-akacolly.png") repeat-x scroll center bottom transparent;
+                        margin: 0 0 18px; padding: 10px 0 18px; }
+header a            {  background: url("http://colly.com/images/site/logo.png") no-repeat scroll 0 0 transparent; display: block;
+                        height: 86px; margin: -22px auto 0; text-indent: -9999px; width: 460px; }
+header a:hover      { background-position: 0 -90px; }
+footer              { background: url("http://colly.com/images/site/deranged.png") no-repeat scroll center top transparent; clear: both; color: #999999; padding: 125px 0 0; position: relative; text-align: center; }
+footer p            { text-align: center; color: #989898; margin: 0; padding: 0; }
+footer p a          { text-decoration: underline; color: #bdb1b1; }
+section             {  margin: 0 auto; }
 
-.container      { background: url("http://colly.com/images/site/graph-tile.png") repeat scroll center top; margin: 20px auto;
-                    padding: 30px 17px 10px; }
+.container          { background: url("http://colly.com/images/site/graph-tile.png") repeat scroll center top; margin: 20px auto;
+                        padding: 30px 17px 10px; }
 
-#archive a        { line-height: 25px; }
+.arch               { line-height: 26px; }
+#subnav             { height: 380px; margin-right: -18px; }
+#navigation         { height: 330px; margin-right: -18px; }
 
-.fl             { float: left; margin: 12px 4px 0 0; padding: 0; font-size: 65px; line-height: 62%; color: #BA1820; }
-.fs             { color: #BA1820; float: left; font-size: 65px; line-height: 62%; margin: 12px 4px 10px 0; padding: 0; }
-article img     { position: relative; }
 
-.lable          { color: #000000; display: block; font-size: 12px; font-style: normal; font-weight: normal; letter-spacing: 1px;
-                    padding: 2px; text-align: center; text-transform: uppercase; line-height: 18px; }
-.lable span     { display: inline; font-size: 15px; }
-.strap          { display: block; font-style: italic; text-align: center; }
+.span_3             { background: url("http://colly.com/images/site/card.png") repeat scroll 0 0 transparent; padding: 10px;
+                        border-radius: 5px; margin: 5px; box-shadow: 0 0 5px 0 #aeaeae; }
+.span_3 a           { color: #BA1820; text-decoration: none; }
+.span_3 a:hover     { color: #999999; text-decoration: none; }
+.span_3 img         { display: block; }
 
-.span_3         { background: url("http://colly.com/images/site/card.png") repeat scroll 0 0 transparent; padding: 10px;
-                    border-radius: 5px; margin: 5px; box-shadow: 0 0 5px 0 #aeaeae; }
-.span_3 a       { color: #BA1820; text-decoration: none; }
-.span_3 a:hover { color: #999999; text-decoration: none; }
-.span_3 img     { display: block; }
+.fl                 { float: left; margin: 12px 4px 0 0; padding: 0; font-size: 65px; line-height: 62%; color: #BA1820; }
+.fs                 { color: #BA1820; float: left; font-size: 65px; line-height: 62%; margin: 12px 4px 10px 0; padding: 0; }
+article img         { position: relative; }
+
+.strap              { display: block; font-style: italic; text-align: center; }
+.strap a            { color: #999999; text-decoration: none; }
+.strap a:hover      { color: #BA1820; text-decoration: none; }
+
+.lable              { color: #000000; display: block; font-size: 12px; font-style: normal; font-weight: normal; letter-spacing: 1px;
+                        padding: 2px; text-align: center; text-transform: uppercase; line-height: 18px; }
+.lable span         { display: inline; font-size: 15px; }
+
+.ext-ref a          { background: url("http://colly.com/images/site/ext-refs.png") repeat-x scroll center top transparent;
+                        text-indent: -9999px; clear: both; display: block; height: 20px; margin: 20px 0 32px; padding: 0; }
+.ext-ref a:hover    { background-position: 13px -20px; }
 
 @media ( max-width : 899px ) {
-    body        { width: 100%; }
-    .col        { margin-left: 0; }
-    .span_3     { width: 48.8%; }
-    .container  { width: 468px; margin: 0 auto; }
+   body             { width: 100%; }
+   .col             { margin-left: 0; }
+   .arch            { line-height: 30px; }
+   .span_3          { width: 48.8%; }
+   .container       { width: 468px; margin: 0 auto; }
+   #subnav          { margin: 0; }
+   #navigation      { height: 680px; margin: 0; }
 }
 
 @media ( max-width : 509px ) {
-    body        { width: 100%; }
-    header a    { background-position: center top; width: 306px; }
-    header a:hover { background-position: center -90px;}
-    .col        { margin-left: 0; }
-    .span_3     { width: 99%; }
-    .container  { width: 306px; margin: auto; }
+   body             { width: 100%; }
+   header a         { background-position: center top; width: 306px; margin: -22px auto 0 -15px;}
+   header a:hover   { background-position: center -90px;}
+   .col             { margin-left: 0; }
+   .span_3          { width: 99%; }
+   .span_3 img      { margin-left: 27px; }
+   .container       { width: 306px; margin: auto; }
+   .ext-ref a:hover { background-position: center -20px; }
+   #subnav          { margin: 0; }
+   #navigation      { height: 1180px; margin: 0; }
 }
