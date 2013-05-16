@@ -56,9 +56,9 @@ article img         { position: relative; }
    body             { width: 100%; }
    header a         { background-position: center top; width: 306px; margin: -22px auto 0 -15px;}
    header a:hover   { background-position: center -90px;}
-   .col             { margin-left: 0; }
-   .span_3          { width: 99%; }
-   .span_3 img      { margin-left: 27px; }
+   .col             { margin-left: -14px; }
+   .span_3          { width: 111% }
+   .span_3 img      { margin-left: 40px; }
    .container       { width: 306px; margin: auto; }
    .ext-ref a:hover { background-position: center -20px; }
    #subnav          { margin: 0; }
